@@ -2,256 +2,266 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Portfolio Website | Sugan</title>
+    <title>Suganjan Senthilkumaran | Full-Stack Software Engineer</title>
+    <meta
+      name="description"
+      content="Suganjan Senthilkumaran – Full-Stack Software Engineer from Jaffna, Sri Lanka. C# / .NET, React, Next.js, Angular, SQL, Docker and AWS."
+    />
 
     <!-- box icons -->
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
-    <!-- header design -->
+    <!-- header -->
     <header class="header">
-      <a href="#" class="logo">Portfolio</a>
+      <a href="#home" class="logo">Suganjan.</a>
 
       <i class="bx bx-menu" id="menu-icon"></i>
 
       <nav class="navbar">
         <a href="#home" class="active">Home</a>
         <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#portfolio">Portfolio</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
-    <!-- home section design -->
+    <!-- home -->
     <section class="home" id="home">
       <div class="home-content">
-        <h3>Hello, It's Me</h3>
+        <h3>Hello, I'm</h3>
         <h1>Suganjan Senthilkumaran</h1>
         <h3>And I'm a <span class="multiple-text"></span></h3>
         <p>
-          I specialize in crafting user-friendly web experiences, blending
-          creativity with technical expertise to deliver impactful digital
-          solutions. Let's bring your ideas to life together!
+          Software Engineer with 2.5 years of experience building and supporting production web applications
+          with C# / .NET, React, Next.js and Angular, backed by SQL databases, Docker and AWS. Based in Jaffna,
+          Sri Lanka.
         </p>
         <div class="social-media">
-          <a href="https://www.facebook.com/S.Suganjan?mibextid=ZbWKwL"
-            ><i class="bx bxl-facebook"></i
-          ></a>
-          <a href="#"><i class="bx bxl-twitter"></i></a>
-          <a href="https://www.instagram.com/suganjans?igsh=ZnU4dndjanV3YTR3"
-            ><i class="bx bxl-instagram-alt"></i
-          ></a>
-          <a
-            href="https://www.linkedin.com/in/suganjan-senthilkumaran-9163b31ab"
+          <a href="https://www.linkedin.com/in/suganjan-senthilkumaran-9163b31ab" target="_blank" rel="noopener" aria-label="LinkedIn"
             ><i class="bx bxl-linkedin"></i
           ></a>
-          <a href="https://github.com/sugan006">
-            <i class="bx bxl-github"></i>
-          </a>
+          <a href="https://github.com/sugan006" target="_blank" rel="noopener" aria-label="GitHub"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="mailto:senthilkumaran.suganjan@gmail.com" aria-label="Email"><i class="bx bx-envelope"></i></a>
         </div>
-        <a
-          href="https://drive.google.com/file/d/1oREJcE6HWg8GCKzzUaiXdHe7JGu6sJ6E/view?usp=sharing"
-          class="btn"
-          >Download CV</a
-        >
+        <a href="cv/Suganjan_Senthilkumaran_CV.pdf" class="btn" target="_blank" rel="noopener">Download CV</a>
       </div>
-      <!-- <iframe
-        src="https://drive.google.com/file/d/1gTFwlXf2xacm_QXcIq73b7YZxpNiGazY/preview"
-        width="640"
-        height="480"
-        allow="autoplay"
-      ></iframe> -->
 
       <div class="home-img">
-        <img src="images/home.png" alt="" />
+        <img src="images/home.png" alt="Suganjan Senthilkumaran" />
       </div>
     </section>
 
-    <!-- about section design -->
+    <!-- about -->
     <section class="about" id="about">
       <div class="about-img">
-        <img src="images/about.png" alt="" />
+        <img src="images/about.png" alt="Suganjan Senthilkumaran" />
       </div>
 
       <div class="about-content">
         <h2 class="heading">About <span>Me</span></h2>
-        <h3>Full Stack Developer!</h3>
+        <h3>Full-Stack Software Engineer</h3>
         <p>
-          I am a skilled Full Stack Developer with a strong foundation in both
-          frontend and backend technologies. I specialize in creating seamless
-          and scalable digital solutions that combine intuitive user interfaces
-          with robust backend functionality. With a passion for problem-solving
-          and innovation, I bring ideas to life with precision and creativity.
+          I build and maintain web applications end to end: REST APIs and background services in C# and .NET,
+          frontends in React, Next.js and Angular with TypeScript, and data in SQL Server, PostgreSQL and Oracle.
+          I've worked on a production flight catering system, finance-sector ERP applications, and integration
+          services for an AI project with Lanka Electricity Company.
         </p>
-        <a href="#" class="btn">Read More</a>
+        <p>
+          I enjoy taking ownership from requirement to production, especially debugging and improving live systems.
+          I use AI coding tools like Claude Code and GitHub Copilot daily, while reviewing and testing everything
+          myself.
+        </p>
+        <a href="#projects" class="btn">See my work</a>
       </div>
     </section>
 
-    <!-- services section design -->
-    <section class="services" id="services">
-      <h2 class="heading">My <span>Services</span></h2>
+    <!-- skills -->
+    <section class="services" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
 
       <div class="services-container">
         <div class="services-box">
+          <i class="bx bx-server"></i>
+          <h3>Backend</h3>
+          <p>C#, ASP.NET Core, ASP.NET Web API, Entity Framework Core, SignalR, Windows Services, Node.js, REST APIs</p>
+        </div>
+
+        <div class="services-box">
           <i class="bx bx-code-alt"></i>
-          <h3>Web Development</h3>
-          <p>
-            I specialize in building responsive, dynamic, and user-centric
-            websites tailored to meet your unique needs. From clean code to
-            captivating design, I ensure every project delivers exceptional
-            performance and functionality.
-          </p>
-          <a href="#" class="btn">Read More</a>
+          <h3>Frontend</h3>
+          <p>React, Next.js, Angular, TypeScript, JavaScript, Tailwind CSS, HTML, CSS</p>
         </div>
 
         <div class="services-box">
-          <i class="bx bxs-paint"></i>
-          <h3>Graphic Design</h3>
-          <p>
-            Transforming ideas into visually compelling designs, I create
-            graphics that communicate your brand's message effectively. From
-            logos to complete branding solutions, I deliver designs that
-            captivate and inspire.
-          </p>
-          <a href="#" class="btn">Read More</a>
+          <i class="bx bx-data"></i>
+          <h3>Databases</h3>
+          <p>SQL Server (T-SQL, stored procedures), PostgreSQL, Oracle, MongoDB</p>
         </div>
 
         <div class="services-box">
-          <i class="bx bx-bar-chart-alt"></i>
-          <h3>Digital Marketing</h3>
-          <p>
-            Empower your online presence with strategic digital marketing
-            solutions. From SEO to social media campaigns, I help you connect
-            with your audience and achieve measurable growth.
-          </p>
-          <a href="#" class="btn">Read More</a>
+          <i class="bx bx-cloud"></i>
+          <h3>Cloud &amp; DevOps</h3>
+          <p>AWS (Elastic Beanstalk, EC2, RDS, IAM, CloudWatch), Docker, GitHub Actions CI, Azure DevOps, Git</p>
         </div>
       </div>
     </section>
 
-    <!-- portfolio section design -->
-    <section class="portfolio" id="portfolio">
-      <h2 class="heading">Latest <span>Projects</span></h2>
+    <!-- experience -->
+    <section class="experience" id="experience">
+      <h2 class="heading">Work <span>Experience</span></h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-date">Oct 2025 – Present</span>
+          <h3>Software Engineer · VBR Asia (Pvt) Ltd</h3>
+          <p>
+            Maintain and enhance a production flight catering system (ASP.NET Web API, Angular, SQL Server). Built a
+            Windows Service for label printing on Zebra printers and real-time updates with SignalR.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">Feb 2025 – Aug 2025</span>
+          <h3>Backend Engineer · AI project for Lanka Electricity Company (LECO)</h3>
+          <p>
+            University of Jaffna, Faculty of Engineering. Built REST APIs in ASP.NET Core and integration services
+            connecting the AI, application and data backends.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">May 2024 – Feb 2025</span>
+          <h3>Intern / Associate Software Engineer · DP InfoTech</h3>
+          <p>
+            Developed finance-sector web applications and ERP modules with ASP.NET Core, React and Next.js, with
+            secure authentication and Oracle / PostgreSQL databases.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">Feb 2023 – Jun 2023</span>
+          <h3>Full Stack Developer Intern · Unicom SD</h3>
+          <p>
+            Ticket booking platform for an international event with ASP.NET Core and Angular, including SVG seat
+            selection and real-time seat availability with SignalR.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects -->
+    <section class="portfolio" id="projects">
+      <h2 class="heading">Featured <span>Project</span></h2>
+
+      <div class="featured-project">
+        <img src="images/fintrack.jpg" alt="FinTrack dashboard with monthly summary and spending chart" />
+        <div class="featured-content">
+          <h3>FinTrack – Personal Finance Tracker</h3>
+          <p>
+            A full-stack finance app with accounts, transactions with filters and paging, transfers between accounts
+            and a monthly dashboard with a spending chart.
+          </p>
+          <ul class="tags">
+            <li>ASP.NET Core (.NET 9)</li>
+            <li>EF Core</li>
+            <li>SQL Server</li>
+            <li>JWT auth</li>
+            <li>xUnit</li>
+            <li>Next.js</li>
+            <li>TypeScript</li>
+            <li>Tailwind</li>
+            <li>Docker</li>
+            <li>AWS</li>
+            <li>GitHub Actions</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://fintrack-suganjan.netlify.app" class="btn" target="_blank" rel="noopener">Live app</a>
+            <a href="https://github.com/sugan006/fintrack" class="btn btn-outline" target="_blank" rel="noopener">Code</a>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="heading small-heading">Early <span>Projects</span></h2>
 
       <div class="portfolio-container">
         <div class="portfolio-box">
-          <img src="images/tic.jpg" alt="" />
+          <img src="images/portfolio2.jpg" alt="Movie search app" />
+          <div class="portfolio-layer">
+            <h4>Movie Search</h4>
+            <p>React app using hooks to search a list of movies</p>
+            <a href="https://movie-site-search-react.netlify.app" target="_blank" rel="noopener" aria-label="Open Movie Search"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/tic.jpg" alt="Tic Tac Toe game" />
           <div class="portfolio-layer">
             <h4>Tic Tac Toe</h4>
-            <p>An application of Tic Tac Toe Game</p>
-            <a href="https://sugan006.github.io/tic-tac-toe-basic/"
+            <p>Browser game built with JavaScript</p>
+            <a href="https://sugan006.github.io/tic-tac-toe-basic/" target="_blank" rel="noopener" aria-label="Open Tic Tac Toe"
               ><i class="bx bx-link-external"></i
             ></a>
           </div>
         </div>
 
         <div class="portfolio-box">
-          <img src="images/portfolio2.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h4>Movie Site</h4>
-            <p>Basic react app using hooks to search some list of movies</p>
-            <a href="https://movie-site-search-react.netlify.app"
-              ><i class="bx bx-link-external"></i
-            ></a>
-          </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="images/portfolio3.jpg" alt="" />
+          <img src="images/portfolio3.jpg" alt="Calculator app" />
           <div class="portfolio-layer">
             <h4>Calculator</h4>
-            <p>A basic calculator created using react</p>
-            <a href="https://sugan006.github.io/calculator-app/"
+            <p>Calculator built with React</p>
+            <a href="https://sugan006.github.io/calculator-app/" target="_blank" rel="noopener" aria-label="Open Calculator"
               ><i class="bx bx-link-external"></i
             ></a>
-          </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="images/portfolio4.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h4>Web Design</h4>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Asperiores, quae!
-            </p>
-            <a href="#"><i class="bx bx-link-external"></i></a>
-          </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="images/portfolio5.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h4>Web Design</h4>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Asperiores, quae!
-            </p>
-            <a href="#"><i class="bx bx-link-external"></i></a>
-          </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="images/portfolio6.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h4>Web Design</h4>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Asperiores, quae!
-            </p>
-            <a href="#"><i class="bx bx-link-external"></i></a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- contact section design -->
+    <!-- contact (handled by Netlify Forms) -->
     <section class="contact" id="contact">
-      <h2 class="heading">Contact <span>Me!</span></h2>
+      <h2 class="heading">Contact <span>Me</span></h2>
 
-      <form action="#">
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
+        <input type="hidden" name="form-name" value="contact" />
+        <p class="hidden-field"><label>Don't fill this out: <input name="bot-field" /></label></p>
         <div class="input-box">
-          <input type="text" placeholder="Full Name" />
-          <input type="email" placeholder="Email Address" />
+          <input type="text" name="name" placeholder="Full Name" required />
+          <input type="email" name="email" placeholder="Email Address" required />
         </div>
         <div class="input-box">
-          <input type="number" placeholder="Mobile Number" />
-          <input type="text" placeholder="Email Subject" />
+          <input type="tel" name="phone" placeholder="Phone Number (optional)" />
+          <input type="text" name="subject" placeholder="Subject" required />
         </div>
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="10"
-          placeholder="Your Message"
-        ></textarea>
+        <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
         <input type="submit" value="Send Message" class="btn" />
       </form>
     </section>
 
-    <!-- footer design -->
+    <!-- footer -->
     <footer class="footer">
       <div class="footer-text">
-        <p>Copyright &copy; 2024 by Sugan | All Rights Reserved.</p>
+        <p>&copy; 2026 Suganjan Senthilkumaran · Jaffna, Sri Lanka</p>
       </div>
 
       <div class="footer-iconTop">
-        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        <a href="#home" aria-label="Back to top"><i class="bx bx-up-arrow-alt"></i></a>
       </div>
     </footer>
 
     <!-- scroll reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.9"></script>
 
     <!-- typed js -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>

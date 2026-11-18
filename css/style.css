@@ -513,3 +513,140 @@ span {
     margin-top: 2rem;
   }
 }
+
+/*==================== experience timeline ====================*/
+.experience {
+  min-height: auto;
+  padding-bottom: 8rem;
+}
+
+.timeline {
+  max-width: 90rem;
+  margin: 4rem auto 0;
+  border-left: 0.3rem solid var(--main-color);
+  padding-left: 3rem;
+}
+
+.timeline-item {
+  position: relative;
+  background: var(--second-bg-color);
+  border-radius: 1.5rem;
+  padding: 2rem 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -4.15rem;
+  top: 2.4rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  background: var(--main-color);
+}
+
+.timeline-date {
+  font-size: 1.4rem;
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+.timeline-item h3 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.timeline-item p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+/*==================== featured project ====================*/
+.featured-project {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  background: var(--bg-color);
+  border-radius: 2rem;
+  padding: 2.5rem;
+  margin-bottom: 6rem;
+}
+
+.featured-project img {
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+.featured-content h3 {
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+}
+
+.featured-content p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin: 2rem 0;
+}
+
+.tags li {
+  font-size: 1.3rem;
+  padding: 0.4rem 1.2rem;
+  border-radius: 2rem;
+  border: 0.1rem solid var(--main-color);
+  color: var(--main-color);
+}
+
+.project-links {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--main-color);
+  border: 0.2rem solid var(--main-color);
+  box-shadow: none;
+}
+
+.small-heading {
+  font-size: 3.6rem;
+  margin-bottom: 3rem;
+}
+
+.about-content p + p {
+  margin-top: 1.5rem;
+}
+
+.hidden-field {
+  display: none;
+}
+
+.thank-you {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+.thank-you p {
+  font-size: 1.8rem;
+}
+
+@media (max-width: 991px) {
+  .featured-project {
+    grid-template-columns: 1fr;
+  }
+}
